@@ -1,0 +1,14 @@
+{%  load static %}
+<center><img src="{%  static "images.jpg" %}" width="1350" height="550" alt=""></center>
+<h1>{{ object.name }}</h1>
+<p><span style="color:maroon">{{ object.stock }}</span> stocks available</p>
+<p>Availability: {{ object.availability }}</p>
+<p>Customer: <span style="color:green">{{ object.customer }}</span></p>
+<style>
+    h1 {color:red;}
+    p {color:blue;}
+</style>
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+</style>
